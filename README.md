@@ -31,9 +31,13 @@
 - Full **health bar** for the player with real-time UI feedback.
 - **Enemies with variable health and damage** — different foes have unique HP pools and attack strengths, keeping encounters challenging and varied.
 
-### 🧟 Enemy AI
+### 🧟 Enemy AI (Behavior Trees & Blackboards)
+- Built using Unreal's **AI Controller**, **Behavior Tree**, and **Blackboard** system for structured, state-driven enemy logic.
+- **Patrol** — enemies autonomously patrol predefined waypoints using **NavMesh** navigation.
+- **Chase** — when the player enters a detection range, enemies switch to a chase state and pursue the player.
+- **Attack** — once close enough, enemies transition to an attack state and deal damage to the player.
+- **NavMesh Movement** — all enemy pathfinding is driven by Unreal's **Navigation Mesh**, ensuring smooth and obstacle-aware movement.
 - Multiple enemy types (e.g., skeleton warriors) with **configurable health and damage values**.
-- Enemies react to the player within the dungeon environment.
 
 ### 🗺️ Tileset-Based Map Design
 - Dungeon levels are built using **tileset maps** in Paper2D, enabling modular and expandable level design.
@@ -115,16 +119,49 @@ RedHood/
 ## 📸 Screenshots
 
 <div align="center">
+<img src="Screenshots/SS0.png" alt="Screenshot 0" width="100%" style="border-radius: 8px;"/>
+</div>
 
-<img src="Screenshots/SS0.png" alt="Screenshot 0" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
-<img src="Screenshots/SS1.png" alt="Screenshot 1" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
-<img src="Screenshots/SS2.png" alt="Screenshot 2" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
-<img src="Screenshots/SS3.png" alt="Screenshot 3" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
-<img src="Screenshots/SS4.png" alt="Screenshot 4" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
-<img src="Screenshots/SS5.png" alt="Screenshot 5" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
-<img src="Screenshots/SS7.png" alt="Screenshot 7" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
-<img src="Screenshots/SS8.png" alt="Screenshot 8" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
+---
 
+<div align="center">
+<img src="Screenshots/SS1.png" alt="Screenshot 1" width="100%" style="border-radius: 8px;"/>
+</div>
+
+---
+
+<div align="center">
+<img src="Screenshots/SS2.png" alt="Screenshot 2" width="100%" style="border-radius: 8px;"/>
+</div>
+
+---
+
+<div align="center">
+<img src="Screenshots/SS3.png" alt="Screenshot 3" width="100%" style="border-radius: 8px;"/>
+</div>
+
+---
+
+<div align="center">
+<img src="Screenshots/SS4.png" alt="Screenshot 4" width="100%" style="border-radius: 8px;"/>
+</div>
+
+---
+
+<div align="center">
+<img src="Screenshots/SS5.png" alt="Screenshot 5" width="100%" style="border-radius: 8px;"/>
+</div>
+
+---
+
+<div align="center">
+<img src="Screenshots/SS7.png" alt="Screenshot 7" width="100%" style="border-radius: 8px;"/>
+</div>
+
+---
+
+<div align="center">
+<img src="Screenshots/SS8.png" alt="Screenshot 8" width="100%" style="border-radius: 8px;"/>
 </div>
 
 ---
