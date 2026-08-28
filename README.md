@@ -22,15 +22,43 @@
 
 ---
 
-## ✨ Features
+## ✨ Core Features
 
-- **🏰 Dungeon Exploration**: Navigate through perilous brick corridors, secret passages, and trap-laden chambers.
-- **⚔️ Action Combat**: Face off against menacing dungeon dwellers like skeleton warriors.
-- **💎 Loot & Secrets**: Discover gold piles, treasure chests, and keys to unlock barred doors.
-- **🎨 2D Pixel Art**: Handcrafted pixel art sprites and fluid flipbook animations.
-- **🔊 Atmospheric Audio**: Immersive dungeon sound effects and background ambiance.
+### ⚔️ Combo Attack System
+- **3-hit combo chain** — each successive strike deals escalating damage, rewarding aggressive play and precise timing.
 
----
+### ❤️ Health & Combat System
+- Full **health bar** for the player with real-time UI feedback.
+- **Enemies with variable health and damage** — different foes have unique HP pools and attack strengths, keeping encounters challenging and varied.
+
+### 🧟 Enemy AI
+- Multiple enemy types (e.g., skeleton warriors) with **configurable health and damage values**.
+- Enemies react to the player within the dungeon environment.
+
+### 🗺️ Tileset-Based Map Design
+- Dungeon levels are built using **tileset maps** in Paper2D, enabling modular and expandable level design.
+- Handcrafted corridors, traps, and secret chambers assembled from reusable tile assets.
+
+### 🎭 Paper2D Characters & Animation
+- All characters are **Paper2D sprites** rendered as flat 2D actors in the world.
+- Fluid **2D flipbook animations** for idle, run, attack, hurt, and death states.
+
+### 📐 Single-Plane 2D Gameplay
+- The entire game plays on a **single 2D plane** — a true side-scrolling experience built inside the Unreal Engine 3D viewport.
+
+### 💎 Pickups & Sound Effects
+- Collectible **pickups** (gold, treasure chests, keys) with satisfying **sound effects** on collection.
+- Atmospheric **audio** for attacks, hits, footsteps, and ambient dungeon sounds.
+
+### 📋 Menu System
+- Fully functional **main menu and pause menu** with navigation, play/resume, and quit options.
+
+### 🏰 Dungeon Exploration
+- Navigate perilous brick corridors, discover hidden vaults, and unlock barred doors with collected keys.
+
+### 🎨 Pixel Art Aesthetic
+- Handcrafted **pixel art sprites and tilesets** delivering a classic dungeon-crawler look and feel.
+
 
 ## 🎮 Controls (Default / Planned)
 
@@ -81,6 +109,23 @@ RedHood/
 ├── RedHood.uproject   # Unreal Engine project file
 └── README.md          # Project documentation
 ```
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+<img src="Screenshots/SS0.png" alt="Screenshot 0" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
+<img src="Screenshots/SS1.png" alt="Screenshot 1" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
+<img src="Screenshots/SS2.png" alt="Screenshot 2" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
+<img src="Screenshots/SS3.png" alt="Screenshot 3" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
+<img src="Screenshots/SS4.png" alt="Screenshot 4" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
+<img src="Screenshots/SS5.png" alt="Screenshot 5" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
+<img src="Screenshots/SS7.png" alt="Screenshot 7" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
+<img src="Screenshots/SS8.png" alt="Screenshot 8" width="100%" style="border-radius: 8px; margin-bottom: 10px;"/>
+
+</div>
 
 ---
 
