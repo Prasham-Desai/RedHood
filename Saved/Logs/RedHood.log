@@ -4807,3 +4807,173 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.08.28-14.32.43:909][488]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5574.000977
 [2026.08.28-14.32.45:575][493]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.08.28-14.32.45:575][493]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5575.334961, Update Interval: 309.388092
+[2026.08.28-14.38.34:279][539]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5924.373047
+[2026.08.28-14.38.35:280][542]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.08.28-14.38.35:280][542]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5925.040527, Update Interval: 355.273895
+[2026.08.28-14.41.52:640][134]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=78062FB34446D255EE8D4AAB360421C5, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.08.28-14.41.52:641][134]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.08.28-14.41.52:641][135]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: libcurl info message cache 0 (Found bundle for host: 0x189ff880210 [serially])
+[2026.08.28-14.41.52:641][135]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2026.08.28-14.41.52:641][135]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: libcurl info message cache 2 (Closing connection)
+[2026.08.28-14.41.52:641][135]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=78062FB34446D255EE8D4AAB360421C5
+[2026.08.28-14.41.53:641][137]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=78062FB34446D255EE8D4AAB360421C5
+[2026.08.28-14.41.53:975][138]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=78062FB34446D255EE8D4AAB360421C5, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.08.28-14.41.53:975][138]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.08.28-14.41.53:975][138]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: libcurl info message cache 3 (Found bundle for host: 0x189ff880210 [serially])
+[2026.08.28-14.41.53:975][138]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2026.08.28-14.41.53:975][138]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: libcurl info message cache 5 (Closing connection)
+[2026.08.28-14.41.53:975][138]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=78062FB34446D255EE8D4AAB360421C5
+[2026.08.28-14.41.54:976][141]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=78062FB34446D255EE8D4AAB360421C5
+[2026.08.28-14.41.55:309][142]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=78062FB34446D255EE8D4AAB360421C5, HTTP code: 0, content length: 0, actual payload size: 0
+[2026.08.28-14.41.55:309][142]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2026.08.28-14.41.55:309][142]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: libcurl info message cache 6 (Found bundle for host: 0x189ff880210 [serially])
+[2026.08.28-14.41.55:309][142]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: libcurl info message cache 7 (Could not resolve host: api.epicgames.dev)
+[2026.08.28-14.41.55:309][142]LogEOSSDK: Warning: LogHttp: 00000189DD60F000: libcurl info message cache 8 (Closing connection)
+[2026.08.28-14.41.55:309][142]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=78062FB34446D255EE8D4AAB360421C5
+[2026.08.28-14.41.55:309][142]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2026.08.28-14.41.56:545][145]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2026.08.28-14.41.56:665][145]LogStall: Shutdown...
+[2026.08.28-14.41.56:665][145]LogStall: Shutdown complete.
+[2026.08.28-14.41.56:823][145]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.56:834][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.57:179][145]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.57:179][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.57:302][145]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.57:302][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.57:469][145]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.57:469][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.57:740][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.08.28-14.41.57:741][145]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.57:741][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.57:903][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2026.08.28-14.41.57:904][145]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.57:904][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.58:036][145]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.58:036][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.58:100][145]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.58:100][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.58:107][145]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.58:107][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.58:174][145]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.58:174][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.58:181][145]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.58:182][145]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.58:271][145]LogSlate: Window 'RedHood - Unreal Editor' being destroyed
+[2026.08.28-14.41.59:051][145]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2026.08.28-14.41.59:069][145]Cmd: QUIT_EDITOR
+[2026.08.28-14.41.59:069][145]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2026.08.28-14.41.59:080][146]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2026.08.28-14.41.59:084][146]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2026.08.28-14.41.59:084][146]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2026.08.28-14.41.59:096][146]LogWorld: UWorld::CleanupWorld for DungeonMap, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.59:101][146]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.08.28-14.41.59:102][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.59:139][146]LogStylusInput: Shutting down StylusInput subsystem.
+[2026.08.28-14.41.59:141][146]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2026.08.28-14.41.59:147][146]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2026.08.28-14.41.59:174][146]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2026.08.28-14.41.59:175][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.08.28-14.41.59:185][146]LogRuntimeTelemetry: Recording EnginePreExit events
+[2026.08.28-14.41.59:186][146]LogHttp: Warning: 	Sleeping 0.500s to wait for 1 outstanding Http Requests.
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: request failed, libcurl error: 26 (Failed to open/read local data from file/application)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 1 (upload completely sent off: 434 bytes)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 2 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 4 (shutting down connection #10)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 5 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 6 (necessary data rewind was not possible)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 7 (rewind of client reader 'cr-in' failed: 65)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBBB68709-4B6D-F6CB-3202-A592F49BC312%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=f5d111c746ca8e8fca7d10b1f6237f92%7Cf41380cbeeb1454c91e8eb8643e5d32a%7C159f4e84-3a08-4814-92d8-531d23babbc3&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 9 (necessary data rewind was not possible)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 10 (rewind of client reader 'cr-in' failed: 65)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 11 (Host datarouter.ol.epicgames.com:443 was resolved.)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 12 (IPv6: (none))
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 13 (IPv4: 54.87.52.219, 18.233.236.234, 52.202.239.229, 3.211.211.123, 44.213.205.183, 107.20.215.200, 32.194.23.16, 52.206.14.248)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 14 (  Trying 54.87.52.219:443...)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 15 (SSL reusing session)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 16 (ALPN: curl offers http/1.1)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 17 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 19 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 20 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 21 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 22 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 23 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 24 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 25 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256 / [blank] / UNDEF)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 26 (ALPN: server accepted http/1.1)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 27 (Server certificate:)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 28 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 29 ( start date: Jan  3 00:00:00 2026 GMT)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 30 ( expire date: Feb  1 23:59:59 2027 GMT)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 31 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 32 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M04)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 33 ( SSL certificate verify ok.)
+[2026.08.28-14.41.59:688][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 34 (  Certificate level 0: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2026.08.28-14.41.59:697][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 35 (  Certificate level 1: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2026.08.28-14.41.59:697][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 36 (  Certificate level 2: Public key type ? (2048/112 Bits/secBits), signed using sha256WithRSAEncryption)
+[2026.08.28-14.41.59:697][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 37 (Connected to datarouter.ol.epicgames.com (54.87.52.219) port 443)
+[2026.08.28-14.41.59:697][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 38 (using HTTP/1.x)
+[2026.08.28-14.41.59:697][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 39 (client read function EOF fail, only 0/434 of needed bytes read)
+[2026.08.28-14.41.59:697][146]LogHttp: Warning: 0000018A23A8D200: libcurl info message cache 40 (closing connection #11)
+[2026.08.28-14.41.59:697][146]LogHttp: Warning: 0000018A23A8D200 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBBB68709-4B6D-F6CB-3202-A592F49BC312%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=f5d111c746ca8e8fca7d10b1f6237f92%7Cf41380cbeeb1454c91e8eb8643e5d32a%7C159f4e84-3a08-4814-92d8-531d23babbc3&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'Other' after 9.01s
+[2026.08.28-14.41.59:697][146]LogStudioTelemetry: Ended StudioTelemetry Session
+[2026.08.28-14.41.59:714][146]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2026.08.28-14.41.59:784][146]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2026.08.28-14.41.59:784][146]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2026.08.28-14.41.59:784][146]LogAudio: Display: Audio Device unregistered from world 'DungeonMap'.
+[2026.08.28-14.41.59:786][146]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2026.08.28-14.41.59:788][146]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2026.08.28-14.41.59:797][146]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2026.08.28-14.41.59:829][146]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2026.08.28-14.41.59:829][146]LogAudio: Display: Audio Device Manager Shutdown
+[2026.08.28-14.41.59:832][146]LogWindowsTextInputMethodSystem: Activated input method: English (India) - (Keyboard).
+[2026.08.28-14.41.59:842][146]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2026.08.28-14.41.59:843][146]LogExit: Preparing to exit.
+[2026.08.28-14.41.59:952][146]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.08.28-14.41.59:958][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:958][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:960][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:961][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:961][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:961][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:961][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:961][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:961][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:961][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:961][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:961][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:962][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:962][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:962][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:962][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:962][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:962][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:962][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:962][146]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.41.59:962][146]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2026.08.28-14.42.00:674][146]LogEditorDataStorage: Deinitializing
+[2026.08.28-14.42.01:323][146]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2026.08.28-14.42.01:529][146]LogExit: Editor shut down
+[2026.08.28-14.42.01:559][146]LogExit: Transaction tracking system shut down
+[2026.08.28-14.42.02:573][146]LogExit: Object subsystem successfully closed.
+[2026.08.28-14.42.02:692][146]LogShaderCompilers: Display: Shaders left to compile 0
+[2026.08.28-14.42.03:146][146]LogMemoryProfiler: Shutdown
+[2026.08.28-14.42.03:147][146]LogNetworkingProfiler: Shutdown
+[2026.08.28-14.42.03:147][146]LoadingProfiler: Shutdown
+[2026.08.28-14.42.03:149][146]LogTimingProfiler: Shutdown
+[2026.08.28-14.42.03:156][146]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2026.08.28-14.42.03:156][146]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2026.08.28-14.42.04:232][146]LogChaosDD: Chaos Debug Draw Shutdown
+[2026.08.28-14.42.04:235][146]LogNFORDenoise: NFORDenoise function shutting down
+[2026.08.28-14.42.04:237][146]RenderDocPlugin: plugin has been unloaded.
+[2026.08.28-14.42.04:258][146]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2026.08.28-14.42.04:258][146]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBBB68709-4B6D-F6CB-3202-A592F49BC312%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=f5d111c746ca8e8fca7d10b1f6237f92%7Cf41380cbeeb1454c91e8eb8643e5d32a%7C159f4e84-3a08-4814-92d8-531d23babbc3&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2026.08.28-14.42.04:846][146]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2026.08.28-14.42.04:886][146]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2026.08.28-14.42.04:886][146]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2026.08.28-14.42.04:888][146]LogPakFile: Destroying PakPlatformFile
+[2026.08.28-14.42.05:479][146]LogD3D12RHI: ~FD3D12DynamicRHI
+[2026.08.28-14.42.05:648][146]LogExit: Exiting.
+[2026.08.28-14.42.05:688][146]Log file closed, 08/28/26 20:12:05
