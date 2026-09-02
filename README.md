@@ -119,49 +119,24 @@ RedHood/
 ## 📸 Screenshots
 
 <div align="center">
-<img src="Screenshots/SS0.png" alt="Screenshot 0" width="100%" style="border-radius: 8px;"/>
-</div>
-
----
-
-<div align="center">
-<img src="Screenshots/SS1.png" alt="Screenshot 1" width="100%" style="border-radius: 8px;"/>
-</div>
-
----
-
-<div align="center">
-<img src="Screenshots/SS2.png" alt="Screenshot 2" width="100%" style="border-radius: 8px;"/>
-</div>
-
----
-
-<div align="center">
-<img src="Screenshots/SS3.png" alt="Screenshot 3" width="100%" style="border-radius: 8px;"/>
-</div>
-
----
-
-<div align="center">
-<img src="Screenshots/SS4.png" alt="Screenshot 4" width="100%" style="border-radius: 8px;"/>
-</div>
-
----
-
-<div align="center">
-<img src="Screenshots/SS5.png" alt="Screenshot 5" width="100%" style="border-radius: 8px;"/>
-</div>
-
----
-
-<div align="center">
-<img src="Screenshots/SS7.png" alt="Screenshot 7" width="100%" style="border-radius: 8px;"/>
-</div>
-
----
-
-<div align="center">
-<img src="Screenshots/SS8.png" alt="Screenshot 8" width="100%" style="border-radius: 8px;"/>
+<table>
+<tr>
+<td><img src="Screenshots/SS0.png" alt="Screenshot 0" width="100%" style="border-radius: 8px;"/></td>
+<td><img src="Screenshots/SS1.png" alt="Screenshot 1" width="100%" style="border-radius: 8px;"/></td>
+</tr>
+<tr>
+<td><img src="Screenshots/SS2.png" alt="Screenshot 2" width="100%" style="border-radius: 8px;"/></td>
+<td><img src="Screenshots/SS3.png" alt="Screenshot 3" width="100%" style="border-radius: 8px;"/></td>
+</tr>
+<tr>
+<td><img src="Screenshots/SS4.png" alt="Screenshot 4" width="100%" style="border-radius: 8px;"/></td>
+<td><img src="Screenshots/SS5.png" alt="Screenshot 5" width="100%" style="border-radius: 8px;"/></td>
+</tr>
+<tr>
+<td><img src="Screenshots/SS7.png" alt="Screenshot 7" width="100%" style="border-radius: 8px;"/></td>
+<td><img src="Screenshots/SS8.png" alt="Screenshot 8" width="100%" style="border-radius: 8px;"/></td>
+</tr>
+</table>
 </div>
 
 ---
