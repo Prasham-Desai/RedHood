@@ -143,4 +143,6 @@ RedHood/
 
 <div align="center">
 <sub>Built with ❤️ using Unreal Engine 5</sub>
+<br><br>
+<img src="Images/github-readme-banner.svg" alt="Creator Signature Banner"/>
 </div>
