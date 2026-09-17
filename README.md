@@ -1,4 +1,8 @@
 ﻿<div align="center">
+  <img src="Images/github-intro-banner.svg" width="100%" alt="Intro Banner"/>
+</div>
+
+<div align="center">
 
 # 🗡️ Red Hood
 
@@ -142,7 +146,5 @@ RedHood/
 ---
 
 <div align="center">
-<sub>Built with &#x2764;&#xFE0F; using Unreal Engine 5</sub>
-<br><br>
 <img src="Images/github-readme-banner.svg" alt="Creator Signature Banner"/>
 </div>
